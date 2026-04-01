@@ -7,7 +7,7 @@ pipeline {
  stages {
   stage ('Clone Code') {
    steps {
-    https://github.com/Vinitha-Arun-max/jenkins_project.git
+    git 'https://github.com/Vinitha-Arun-max/jenkins_project.git'
   }
 }
   stage('Build Docker Image'){
